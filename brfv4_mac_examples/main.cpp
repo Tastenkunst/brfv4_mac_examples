@@ -1,7 +1,7 @@
 #include "brfv4/BRFManager.hpp"
 #include "brfv4/image/BRFBitmapData.hpp"
 
-#include <opencv2/opencv.hpp>
+#include "opencv2/opencv.hpp"
 
 #include "brfv4/opencv3/CameraUtils.hpp"
 #include "brfv4/opencv3/DrawingUtils.hpp"

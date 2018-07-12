@@ -33,7 +33,7 @@ class CameraUtils {
 
 	public: bool init() {
 
-		camera.open(1);
+        camera.open(1);
 
 		if(!camera.isOpened()) {	// check if we succeeded
 			return false;
