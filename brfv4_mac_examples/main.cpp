@@ -1,3 +1,9 @@
+// IMPORTANT NOTICE:
+//
+// Since macOS Mojave it's not possible to run a camera app in the Xcode debug terminal.
+// Xcode is not in the list of allowed apps to use the camera. So to be able to run a terminal camera
+// app in mac, I had to edit the Scheme to run on the system Terminal.app
+
 #include "brfv4/BRFManager.hpp"
 #include "brfv4/image/BRFBitmapData.hpp"
 

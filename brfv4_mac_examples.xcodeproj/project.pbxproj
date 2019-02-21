@@ -11,7 +11,7 @@
 		677AB6C820F7340800501F92 /* libopencv_highgui.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 677AB6C420F7340800501F92 /* libopencv_highgui.3.4.1.dylib */; };
 		677AB6C920F7340800501F92 /* libopencv_core.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 677AB6C520F7340800501F92 /* libopencv_core.3.4.1.dylib */; };
 		677AB6CA20F7340800501F92 /* libopencv_imgproc.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 677AB6C620F7340800501F92 /* libopencv_imgproc.3.4.1.dylib */; };
-		677AB6CD20F7357000501F92 /* BRFv4_MAC_TK110718_v4.1.0_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 677AB6CC20F7357000501F92 /* BRFv4_MAC_TK110718_v4.1.0_trial.a */; };
+		67A3CB8A221EA77900386EF2 /* BRFv4_MAC_TK210219_v4.2.0_trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A3CB89221EA77900386EF2 /* BRFv4_MAC_TK210219_v4.2.0_trial.a */; };
 		67EE968F1EB38B38002EC9FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE968E1EB38B38002EC9FE /* main.cpp */; };
 		67EE96A21EB38E60002EC9FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE96A11EB38E60002EC9FE /* Security.framework */; };
 		67EE96A41EB38E71002EC9FE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE96A31EB38E71002EC9FE /* CFNetwork.framework */; };
@@ -36,7 +36,7 @@
 		677AB6C520F7340800501F92 /* libopencv_core.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.4.1.dylib; path = brfv4_mac_examples/libopencv_core.3.4.1.dylib; sourceTree = "<group>"; };
 		677AB6C620F7340800501F92 /* libopencv_imgproc.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.4.1.dylib; path = brfv4_mac_examples/libopencv_imgproc.3.4.1.dylib; sourceTree = "<group>"; };
 		677AB6CB20F7352700501F92 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = brfv4_mac_examples/include; sourceTree = "<group>"; };
-		677AB6CC20F7357000501F92 /* BRFv4_MAC_TK110718_v4.1.0_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = BRFv4_MAC_TK110718_v4.1.0_trial.a; sourceTree = "<group>"; };
+		67A3CB89221EA77900386EF2 /* BRFv4_MAC_TK210219_v4.2.0_trial.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = BRFv4_MAC_TK210219_v4.2.0_trial.a; path = brfv4_mac_examples/BRFv4_MAC_TK210219_v4.2.0_trial.a; sourceTree = "<group>"; };
 		67EE968B1EB38B38002EC9FE /* brfv4_mac_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = brfv4_mac_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EE968E1EB38B38002EC9FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		67EE96951EB38B60002EC9FE /* brfv4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = brfv4; sourceTree = "<group>"; };
@@ -50,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A3CB8A221EA77900386EF2 /* BRFv4_MAC_TK210219_v4.2.0_trial.a in Frameworks */,
 				677AB6C720F7340800501F92 /* libopencv_videoio.3.4.1.dylib in Frameworks */,
 				677AB6C820F7340800501F92 /* libopencv_highgui.3.4.1.dylib in Frameworks */,
 				677AB6C920F7340800501F92 /* libopencv_core.3.4.1.dylib in Frameworks */,
@@ -57,7 +58,6 @@
 				67EE96A61EB38E8D002EC9FE /* CoreFoundation.framework in Frameworks */,
 				67EE96A41EB38E71002EC9FE /* CFNetwork.framework in Frameworks */,
 				67EE96A21EB38E60002EC9FE /* Security.framework in Frameworks */,
-				677AB6CD20F7357000501F92 /* BRFv4_MAC_TK110718_v4.1.0_trial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,6 @@
 		67EE968D1EB38B38002EC9FE /* brfv4_mac_examples */ = {
 			isa = PBXGroup;
 			children = (
-				677AB6CC20F7357000501F92 /* BRFv4_MAC_TK110718_v4.1.0_trial.a */,
 				67EE96951EB38B60002EC9FE /* brfv4 */,
 				67EE968E1EB38B38002EC9FE /* main.cpp */,
 			);
@@ -95,6 +94,7 @@
 		67EE96961EB38D8B002EC9FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67A3CB89221EA77900386EF2 /* BRFv4_MAC_TK210219_v4.2.0_trial.a */,
 				677AB6C520F7340800501F92 /* libopencv_core.3.4.1.dylib */,
 				677AB6C420F7340800501F92 /* libopencv_highgui.3.4.1.dylib */,
 				677AB6C620F7340800501F92 /* libopencv_imgproc.3.4.1.dylib */,
@@ -195,6 +195,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -212,6 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,6 +245,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -254,6 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -264,10 +268,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEVELOPMENT_TEAM = 4WY629CFK7;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/brfv4_mac_examples/include";
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = YES;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/brfv4_mac_examples";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tastenkunst.mac.brfv4.examples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/brfv4_mac_examples";
 			};
@@ -277,10 +285,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEVELOPMENT_TEAM = 4WY629CFK7;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/brfv4_mac_examples/include";
+				INFOPLIST_FILE = "";
+				INFOPLIST_PREPROCESS = YES;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/brfv4_mac_examples";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tastenkunst.mac.brfv4.examples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/brfv4_mac_examples";
 			};
